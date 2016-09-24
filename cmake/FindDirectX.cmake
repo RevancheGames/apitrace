@@ -211,6 +211,10 @@ if (WIN32)
         find_dxsdk_library  (D3DX11  d3dx11)
         find_combined       (D3DX11  D3DX11 D3DX11)
 
+        find_winsdk_header  (D3D12   d3d12.h)
+        find_winsdk_library (D3D12   d3d12)
+        find_combined       (D3D12   D3D12 D3D12)
+
         find_winsdk_header  (D2D1    d2d1.h)
         find_winsdk_library (D2D1    d2d1)
         find_combined       (D2D1    D2D1 D2D1)
